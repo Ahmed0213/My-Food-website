@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Web Site</title>
+    <link rel="stylesheet" href="./CSS/app.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/Common.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+</head>
+
+<body>
+    <!-- !header section start -->
+    <header class="header d-flex align-items-center justify-between">
+        <a class="logo" href="#">
+            <img src="./images/logo.png" alt="">
+        </a>
+        <nav class="navBar">
+            <a href="index.html" >Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Products</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html">Contact</a>
+            <a href="blogs.html">Blogs</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form  ">
+            <input type="text" class="search-input" id="search-box" placeholder="search here">
+            <i class="fas fa-search"></i>
+        </div>
+       <div class="cart-items-container  ">
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="./images/menu-1.png" alt="menu1">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="./images/menu-2.png" alt="menu1">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="./images/menu-3.png" alt="menu1">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="./images/menu-4.png" alt="menu1">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+        <a href="#" class="btn">cehck out now </a>
+       </div>
+    </header>
+    <!-- !header section end-->
+    <!-- !about section start -->
+    <section class="about" id="about">
+        <h1 class="heading">about <span>us</span></h1>
+        <div class="row d-flex ">
+            <div class="image">
+                <img src="./images/about.jpg" alt="about">
+            </div>
+            <div class="content">
+                <h3>What Is The Secret Recipe Of Our Burgers?</h3>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam Voluptatem
+                    Facere Amet Temporibus Culpa Sit Illo Earum Cupiditate Soluta Perferendis!
+                </p>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam Voluptatem
+                    Facere Amet Temporibus Culpa Sit Illo Earum Cupiditate Soluta Perferendis!
+                </p>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Quisquam Voluptatem
+                    Facere Amet Temporibus Culpa Sit Illo Earum Cupiditate Soluta Perferendis!
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- !about section end -->
+   
+ 
+ 
+    <!-- !footer section start -->
+       <footer>
+        <div class="search">
+            <input placeholder="Search" class="search-input" type="text">
+            <button class="btn">Search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links d-flex justify-center flex-wrap">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+            <a href="#">Blogs</a>
+        </div>
+        <div class="credit d-flex justify-center flex-wrap"> Created By <span>Ahmed Mammadov</span> | All Rights Reserved</div>
+       </footer>
+    <!-- !footer section end -->
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Web Site</title>
+    <link rel="stylesheet" href="./CSS/app.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/Common.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+</head>
+
+<body>
+    <!-- !header section start -->
+    <header class="header d-flex align-items-center justify-between">
+        <a class="logo" href="#">
+            <img src="./images/logo.png" alt="">
+        </a>
+        <nav class="navBar">
+            <a href="index.html" >Home</a>
+            <a href="about.html" >About</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Products</a>
+            <a href="review.html" >Review</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="blogs.html">Blogs</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form  ">
+            <input type="text" class="search-input" id="search-box" placeholder="search here">
+            <i class="fas fa-search"></i>
+        </div>
+       <div class="cart-items-container  ">
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="./images/menu-1.png" alt="menu1">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="./images/menu-2.png" alt="menu1">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="./images/menu-3.png" alt="menu1">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="./images/menu-4.png" alt="menu1">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99</div>
+            </div>
+        </div>
+        <a href="#" class="btn">cehck out now </a>
+       </div>
+    </header>
+    <!-- !header section end-->
+       <!-- !contact section start -->
+       <section class="contact" id="contact">
+        <h1 class="heading">CONTACT <span>US</span></h1>
+        <div class="row d-flex">
+            <iframe
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12159.6856262341!2d49.8349644!3d40.366267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xddd20fe143a690b6!2zxLDDp2VyaSDFnmVoaXI!5e0!3m2!1str!2s!4v1663672891440!5m2!1str!2s"
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form >
+                <h3>GET IN TOUCH</h3>
+                <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="input-box">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="phone number">
+                </div>
+                <input type="submit" class="btn" value="Contact Now">
+            </form>
+        </div>
+    </section>
+    <!-- !contact section end -->
+        <!-- !footer section start -->
+        <footer>
+            <div class="search">
+                <input placeholder="Search" class="search-input" type="text">
+                <button class="btn">Search</button>
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+            <div class="links d-flex justify-center flex-wrap">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Products</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+                <a href="#">Blogs</a>
+            </div>
+            <div class="credit d-flex justify-center flex-wrap"> Created By <span>Ahmed Mammadov</span> | All Rights Reserved</div>
+           </footer>
+        <!-- !footer section end -->
+        <script src="./app.js"></script>
+    </body>
+    
+    </html>
